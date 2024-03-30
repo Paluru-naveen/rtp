@@ -10,8 +10,7 @@ public class PwdUtils {
 		byte[] encode=encoder.encode(pwd.getBytes());
 		String encodedPwd=new String(encode);
 		return encodedPwd;
-		// TODO Auto-generated method stub
-
+		
 	
 	}
 }
